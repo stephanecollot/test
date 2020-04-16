@@ -1,0 +1,7 @@
+# This file is a git config file shared with all project members
+# To source this file please exectute the script ./git_setup.sh
+
+# This is is a nbstripout setting to remove all metadata of the notebook, to prevent conflicts
+[filter "nbstripout"]
+        extrakeys = metadata.kernelspec metadata.cell:toolbar \n  metadata.language_info.codemirror_mode.version\n  metadata.language_info.pygments_lexer metadata.language_info.version\n  metadata.toc metadata.notify_time metadata.varInspector\n  cell.metadata.heading_collapsed cell.metadata.hidden\n  cell.metadata.code_folding cell.metadata.tags cell.metadata.init_cell
+
